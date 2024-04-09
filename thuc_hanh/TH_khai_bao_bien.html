@@ -27,13 +27,15 @@
 
  */
     //bài 3: kiểm tra a có là bội của b không
-    let a
-    let b
-    prompt('a');
-    prompt('b');
-    let c= a % b ;
-    console.log(c);
-    alert(c);
+    let a = prompt('nhap a');
+    let b = prompt('nhap b');
+
+    if(a%b == 0){
+        alert('a chia het cho b');
+    }
+        else {
+            alert("a khong chia het cho b");
+    }
 </script>
 </body>
 </html>
