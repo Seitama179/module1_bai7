@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="banKinh">
+<button onclick="chuVi()">Nhập</button>
+<p id="result"></p>
+<script>
+    function chuVi() {
+        let r = document.getElementById("banKinh").value;
+        const pi = 3.14159;
+        let C = r*2*pi;
+        document.getElementById("result").innerText = 'reusult ' + C;
+    }
+</script>
+</body>
+</html>

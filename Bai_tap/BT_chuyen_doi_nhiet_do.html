@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="cDgree">
+<button onclick="convert()">Nhập</button>
+<p id="result"></p>
+<script>
+    function convert() {
+        let cDegree = document.getElementById("cDgree").value;
+        let fDegree = (cDegree * 9) / 5 + 32;
+        document.getElementById("result").innerText = 'reusult ' + fDegree;
+    }
+</script>
+</body>
+</html>
